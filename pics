@@ -1,5 +1,6 @@
 <html>
 
+    <link type="text/css" rel="stylesheet" href="becky.css">
 <table>
 <thead>
 <th colspan"2"> These Are Pics of Us<th><thead>
@@ -29,3 +30,4 @@
 <td></td></tr>
 </table>
 
+</html>
