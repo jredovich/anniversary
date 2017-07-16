@@ -36,6 +36,7 @@ h2 {text-align: center;
   color: orange;
   text-align: center;
   border: 1px solid #000;
+   text-shadow: 2px 1px black;
 }
 .beckv {width: 200px;
   height: auto;
