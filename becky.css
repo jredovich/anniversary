@@ -33,10 +33,10 @@ h2 {text-align: center;
 .bigbeck {
   font-family: Arial;
   font-size: 24px;
-  color: orange;
+  color: blue;
   text-align: center;
   border: 1px solid #000;
-   text-shadow: 2px 1px black;
+   text-shadow: 2px 1px red;
 }
 .beckv {width: 200px;
   height: auto;
