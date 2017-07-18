@@ -54,6 +54,14 @@ alert("Hi Becky. Happy Two Years! -Your Lover");
     var B=prompt("Enter the number of Beckies");
     var J=prompt("Enter the number of Jakes");
     if (B==1 && J==1) {alert("Perfect Ratio!")}
+    else if (B==0 && J==0) {alert("Oh No! They're Dead!")}
+    else if (B==1 && J==0) {alert("Becky is Lonely! :(")}
+    else if (B==0 && J==1) {alert("Jake is all alone!")}
+    else if (B>0 && J>0 && B>J) {alert("OH NO! TOO MUCH BECKY! Jake is overwhelmed!")}
+    else if (B>0 && J>0 && J<B) {alert("So much Jake! Becky is so happy!")}
+    else {alert("Come on. Type real numbers next time!")}
+    
+    
 
 </script>
 </html>
