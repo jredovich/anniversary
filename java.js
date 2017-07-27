@@ -1,12 +1,26 @@
-function change(){
+$(document).ready(function()
+
+{ 
+    $('#text').click(function() { $(this).toggleClass('bigbeck');
+    });
+                             
+ $('#hoe1').hover(function() {
+        $(this).toggleClass('bear');    
+    });
+    $('#hoe2').hover(function() {
+        $(this).toggleClass('bear');    
+    });
+ 
+ $('#hoe3').hover(function() {
+        $(this).toggleClass('bear');    
+    });
+ 
+ $('#hoe4').hover(function() {
+        $(this).toggleClass('bear');    
+    });
+
+$('#hoe5').hover(function() {
+        $(this).toggleClass('bear');    
+    });
+ });
     
-   var myNewTitle = document.getElementById('myTextField').value;
-   if( myNewTitle.length==0 ){
-       alert('Write Some real Text please.');
-   return;
-   }
-   
-   var title = document.getElementById('title');
-   title.innerHTML = myNewTitle;
-    
-}  
