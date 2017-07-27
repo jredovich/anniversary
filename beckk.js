@@ -1,4 +1,4 @@
-(function(){ $('#text').click(function() { $(this).addClass('bigbeck');})
+$(document).ready(function(){ $('#text').click(function() { $(this).addClass('bigbeck');})
 
 
 
