@@ -22,5 +22,5 @@
 $('#hoe5').hover(function() {
         $(this).toggleClass('bear');    
     });
- });
+ };
     
