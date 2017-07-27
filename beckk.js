@@ -1,9 +1,16 @@
-$(document).ready(function(){ $('#text').click(function() { $(this).addClass('bigbeck');})
+(document).ready(function()
+
+{ 
+    $('#text').click(function() { $(this).toggleClass('bigbeck');
+    });
                              
-                             $('img').hover(function() $(this).addClass('bear');})
+ $('#hoe').hover(function() {
+        $(this).toggleClass('bear');    
+    });
+ 
+ 
 
 
 
-})
-    
+});
     
