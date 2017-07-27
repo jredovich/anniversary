@@ -1,4 +1,4 @@
-!function()
+$(document).ready(function()
 
 { 
     $('#text').click(function() { $(this).toggleClass('bigbeck');
@@ -22,5 +22,7 @@
 $('#hoe5').hover(function() {
         $(this).toggleClass('bear');    
     });
- };
+ });
+    
+    
     
