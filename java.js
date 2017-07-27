@@ -1,4 +1,4 @@
-(function()
+(function hat()
 
 { 
     $('#text').click(function() { $(this).toggleClass('bigbeck');
