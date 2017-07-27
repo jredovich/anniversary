@@ -22,7 +22,11 @@ $(document).ready(function()
 $('#hoe5').hover(function() {
         $(this).toggleClass('bear');    
     });
+    $('#divlover').hover(function() {
+        $(this).toggleClass('grizzly');
+    });
  });
+    
     
     
     
