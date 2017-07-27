@@ -1,12 +1,7 @@
-$(document).ready(function() {
+(function(){ $('#text').click(function() { $(this).addClass('bigbeck');})
 
 
 
-$('img').hover(function() {
-        $(this).addClass('bear');    
-    });
-  $('body').append("<p>I'm a paragraph</p>");
-    
-    });
+})
     
     
